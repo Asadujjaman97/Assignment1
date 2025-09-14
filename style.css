@@ -145,7 +145,7 @@ font-family: "Lobster", cursive;
 
 
 /* RESPONSIVE */
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .hero, .develop, .community, .app-box {
     flex-direction: column;
     text-align: center;
@@ -154,6 +154,7 @@ font-family: "Lobster", cursive;
   .cards { flex-direction: column; align-items: center; }
   .card { width: 60%; }
   .card-icon img { width: 80px; }
+}
 @media (max-width: 1024px) {
   .hero, .develop, .community, .app-box {
     flex-direction: column;
